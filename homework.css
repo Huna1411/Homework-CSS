@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+.mainbody{
+    background-color: rgb(248, 248, 248);
+    max-width: 1300px;
+    min-height: auto;
+}
+.homepage-img{
+    opacity: 70%;
+}
+#content{
+    padding-top: 50px;
+}
+
+.homepage2{
+    position: relative;
+}
+#hp2content{
+    padding: 40px;
+
+}
+.hp2image{
+    position: absolute;
+    right: 0;
+
+}
+.homepage1{
+    padding: 40px;
+}
+
+.homepage3{
+    padding: 100px;
+}
+.homepage4{
+    background-color: #E7ECFF;
+    width: 1300px ;
+    min-height: 620px;
+}
+.hp4content{
+    
+    position: relative;
+    text-align: center;
+}
+.hp4content-top{
+    background-color: #E7ECFF;
+    width: 450px;
+    min-height: auto;
+    position: absolute;
+    right: 450px;
+    top: 150px;
+}
+.hp4content-bot{
+    background-color: #E7ECFF;
+    width: 150px;
+    min-height: auto;
+    position: absolute;
+    top: 330px;
+    right: 600px;
+}
+.button-content{
+    
+    position: absolute;
+    top: 150px;
+    right: 5px;
+}
+.footer-main{
+    background-color: #c9d4fb;
+    max-width: 1300px;
+    min-height: 180px;
+    padding: 40px;
+    position: relative;
+}
+.footer-top{
+    display: flex;
+}
+.namecompany{
+    position: absolute;
+    left: 100px;
+}
+.footer-logo{
+    position: absolute;
+    left: 585px;
+}
+.footer-button{
+    position: absolute;
+    right: 50px ;
+}
+.namecompany--separate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1070px;
+    height: 1px;
+    background-color: rgba(82, 82, 82, 0.205);
+    top: 70px;
+    left: 0px;
+}
+.footer-bot{
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+
+
+.footer-bot-icon{
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
